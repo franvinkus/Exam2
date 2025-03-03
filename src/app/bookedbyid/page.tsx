@@ -186,7 +186,7 @@ const booked = () => {
                 <div className='mt-4'>
                     <button onClick={handleUpdate} className="rounded-2xl border-2 border-black p-2 hover:text-white hover:bg-black hover:border-white hover:cursor-pointer">Save</button>
 
-                    <button onClick={() => setEditMode(false)} className="bg-red-500 text-white px-3 py-1 rounded ml-2">Cancel</button>
+                    <button onClick={() => setEditMode(false)} className="rounded-2xl bg-red-500 text-white p-2 ml-2 hover:cursor-pointer">Cancel</button>
                 </div>
             </div>
         )}

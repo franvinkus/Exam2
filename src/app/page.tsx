@@ -32,9 +32,9 @@ export default function Home() {
             </button>
           </Link>
 
-          <Link href="/bookededit">
+          <Link href="/bookeddelete">
             <button className="rounded-3xl border-2 border-black p-2 hover:text-white hover:bg-black hover:border-white hover:cursor-pointer ">
-              Edit Ticket Quantity
+              Delete Ticket
             </button>
           </Link>
           
