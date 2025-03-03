@@ -38,9 +38,11 @@ export default function Home() {
             </button>
           </Link>
           
-          <button className="rounded-3xl border-2 border-black p-2 hover:text-white hover:bg-black hover:border-white hover:cursor-pointer mx-3">
-            Print Tickets
-          </button>
+          <Link href="/pdfticket">
+            <button className="rounded-3xl border-2 border-black p-2 hover:text-white hover:bg-black hover:border-white hover:cursor-pointer mx-3">
+              PDF the Ticket
+            </button>
+          </Link>
         </div>
       </div>
     </main>

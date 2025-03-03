@@ -6,7 +6,7 @@ interface bookedTicket{
 
 }
 
-const bookeddelete = () => {
+const BookedDelete = () => {
     const [bookedTicketId, setBookedTicketId] = useState('');
     const [bookedTicketCode, setBookedTicketCode] = useState('');
     const [bookedQuantity, setBookQuantity] = useState('');
@@ -75,4 +75,4 @@ const bookeddelete = () => {
   )
 }
 
-export default bookeddelete
+export default BookedDelete

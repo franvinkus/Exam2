@@ -12,7 +12,7 @@ interface bookedTicket{
 }
 
 
-const booked = () => {
+const Booked = () => {
     const [bookedTicket, setBookedTicket] = useState<bookedTicket[]>([]);
     const [loading, setLoading] = useState<boolean>(true);
     const [id, setId] = useState('');
@@ -196,4 +196,4 @@ const booked = () => {
   )
 }
 
-export default booked
+export default Booked
